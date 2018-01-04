@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="controller.TitleController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="txtCompany" layoutX="20.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company" wrappingWidth="186.21875">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Text fx:id="txtTasks" layoutX="131.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tasks" wrappingWidth="150.21875">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Text fx:id="txtManager" layoutX="213.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Button fx:id="btnReg" styleClass="button-title" layoutX="74.0" layoutY="315.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="175.0" text="Registration" />
+      <Button fx:id="btnModer" styleClass="button-title" layoutX="351.0" layoutY="315.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="175.0" text="Moderate" />
+      <ImageView fitHeight="202.0" fitWidth="202.0" layoutX="384.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo/miracle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

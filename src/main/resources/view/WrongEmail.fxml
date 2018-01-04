@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="controller.WrongEmailWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="txt1" layoutX="24.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This e-mail registered. Enter another e-mail address." wrappingWidth="337.21875" />
+      <Text fx:id="txt2" layoutX="141.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or Loggin" />
+   </children>
+</AnchorPane>

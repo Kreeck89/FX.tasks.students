@@ -1,0 +1,55 @@
+.button-title {
+    -fx-background-color: #3F51B5 ;
+    -fx-text-fill: WHITE;
+}
+
+.button-title:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-title:pressed {
+    -fx-background-color: lightseagreen;
+}
+
+
+
+.button-register {
+    -fx-background-color: #06a018 ;
+    -fx-text-fill: WHITE;
+}
+
+.button-register:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-register:pressed {
+    -fx-background-color: lightseagreen;
+}
+
+
+.button-delete {
+    -fx-background-color: #a00508 ;
+    -fx-text-fill: BLACK;
+}
+
+.button-delete:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-delete:pressed {
+    -fx-background-color: lightseagreen;
+}
+
+
+.button-exit {
+    -fx-background-color: #020000 ;
+    -fx-text-fill: RED;
+}
+
+.button-exit:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-exit:pressed {
+    -fx-background-color: lightseagreen;
+}

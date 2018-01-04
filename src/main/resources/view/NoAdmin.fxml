@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="controller.NoAdminController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="txt" layoutX="-5.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You don`t have role: ADMIN for moderate!" textAlignment="CENTER" wrappingWidth="293.21875" />
+   </children>
+</AnchorPane>

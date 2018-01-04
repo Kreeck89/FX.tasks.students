@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="controller.StudentRegistrWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtStudentName" layoutX="14.0" layoutY="7.0" prefHeight="27.0" prefWidth="333.0" promptText="Name" />
+      <TextField fx:id="txtStudentSurname" layoutX="14.0" layoutY="41.0" prefHeight="27.0" prefWidth="333.0" promptText="Surname" />
+      <TextField fx:id="txtStudentEmail" layoutX="14.0" layoutY="74.0" prefHeight="27.0" prefWidth="333.0" promptText="E-mail" />
+      <TextArea fx:id="txtAbout" layoutX="13.0" layoutY="148.0" prefHeight="89.0" prefWidth="369.0" promptText="Some about you..." />
+      <ImageView fitHeight="133.0" fitWidth="121.0" layoutX="365.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo/miracle.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnNext" styleClass="button-register" layoutX="393.0" layoutY="184.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="92.0" text="Save" />
+      <TextField fx:id="password" layoutX="13.0" layoutY="109.0" prefHeight="27.0" prefWidth="333.0" promptText="Password" />
+   </children>
+</AnchorPane>

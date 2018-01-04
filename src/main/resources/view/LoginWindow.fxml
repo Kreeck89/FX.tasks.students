@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="controller.LoginWindowController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtLogin" layoutX="14.0" layoutY="14.0" prefHeight="34.0" prefWidth="179.0" promptText="Login" />
+      <TextField fx:id="txtPass" layoutX="15.0" layoutY="62.0" prefHeight="34.0" prefWidth="179.0" promptText="Password" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="206.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo/miracle.png" />
+         </image>
+         <effect>
+            <DisplacementMap>
+               <mapData>
+                  <FloatMap />
+               </mapData>
+            </DisplacementMap>
+         </effect>
+      </ImageView>
+      <Button fx:id="btnLogin" styleClass="button-title" layoutX="104.0" layoutY="113.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="89.0" text="Login" />
+      <Button fx:id="btnRegistr" styleClass="button-register" layoutX="15.0" layoutY="113.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="79.0" text="Registration" />
+   </children>
+</AnchorPane>

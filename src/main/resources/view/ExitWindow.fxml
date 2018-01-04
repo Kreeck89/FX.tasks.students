@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="controller.ExitWindowController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="92.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="txtExit" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you don`t update your data - click to &quot;Update&quot; in a table." textAlignment="CENTER" wrappingWidth="376.21875">
+         <effect>
+            <Bloom />
+         </effect>
+      </Text>
+      <Button fx:id="btnExit" styleClass="button-exit" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="159.0" text="Exit" />
+      <Button fx:id="btnCancel" styleClass="button-title" layoutX="231.0" layoutY="46.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="159.0" text="Cancel" />
+   </children>
+</AnchorPane>
