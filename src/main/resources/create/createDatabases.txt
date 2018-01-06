@@ -1,0 +1,10 @@
+CREATE TABLE tasks
+(
+  id        INTEGER NOT NULL,
+  studentID INTEGER NOT NULL,
+  task      TEXT DEFAULT NULL,
+  answer    TEXT DEFAULT NULL
+);
+
+CREATE UNIQUE INDEX tasks_id_uindex
+  ON tasks (id);
